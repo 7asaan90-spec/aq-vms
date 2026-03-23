@@ -1,0 +1,49 @@
+{
+  "name": "AQ Visitor Management",
+  "short_name": "AQ VMS",
+  "description": "Abudawood Quarters Visitor Management System",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "lang": "en",
+  "dir": "auto",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "shortcuts": [
+    {
+      "name": "New Booking",
+      "short_name": "Book",
+      "url": "/?page=book",
+      "description": "Register a new visitor"
+    },
+    {
+      "name": "Check-In",
+      "short_name": "Scan",
+      "url": "/?page=reception",
+      "description": "Scan visitor QR code"
+    }
+  ]
+}
